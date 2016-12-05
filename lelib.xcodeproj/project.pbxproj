@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28854CCD1DF610EE007A5FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28854CCC1DF610EE007A5FF6 /* AppDelegate.swift */; };
+		28854CCF1DF610EE007A5FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28854CCE1DF610EE007A5FF6 /* ViewController.swift */; };
+		28854CD11DF610EE007A5FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28854CD01DF610EE007A5FF6 /* Assets.xcassets */; };
+		28854CD41DF610EE007A5FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28854CD21DF610EE007A5FF6 /* Main.storyboard */; };
+		28854CDF1DF610EE007A5FF6 /* demo_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28854CDE1DF610EE007A5FF6 /* demo_macOSTests.swift */; };
+		28854CEA1DF610EE007A5FF6 /* demo_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28854CE91DF610EE007A5FF6 /* demo_macOSUITests.swift */; };
+		28854CF51DF61102007A5FF6 /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
+		28854CF61DF6110B007A5FF6 /* LEBackgroundThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB74F9184AC86F00B393BC /* LEBackgroundThread.m */; };
+		28854CF71DF61112007A5FF6 /* LogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0162184BDEE000AB5C9A /* LogFile.m */; };
+		28854CF81DF61119007A5FF6 /* LogFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0166184BDEFC00AB5C9A /* LogFiles.m */; };
+		28854CF91DF6111F007A5FF6 /* lecore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50E3E1187B5097007DCFE5 /* lecore.m */; };
+		28854CFB1DF61146007A5FF6 /* LELog-macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 28854CFA1DF61146007A5FF6 /* LELog-macOS.m */; };
 		4B08F54A18436082003D813B /* LELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08F54918436082003D813B /* LELog.m */; };
 		4B08F55018436F10003D813B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB806A2181D3DF1003066E5 /* Foundation.framework */; };
 		4B08F55218436F10003D813B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B08F55118436F10003D813B /* CoreGraphics.framework */; };
@@ -69,6 +81,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		28854CDB1DF610EE007A5FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB80697181D3DF1003066E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28854CC91DF610EE007A5FF6;
+			remoteInfo = "demo-macOS";
+		};
+		28854CE61DF610EE007A5FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB80697181D3DF1003066E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28854CC91DF610EE007A5FF6;
+			remoteInfo = "demo-macOS";
+		};
 		4BB806B5181D3DF1003066E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4BB80697181D3DF1003066E5 /* Project object */;
@@ -99,8 +125,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28854CCA1DF610EE007A5FF6 /* demo-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28854CCC1DF610EE007A5FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28854CCE1DF610EE007A5FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28854CD01DF610EE007A5FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28854CD31DF610EE007A5FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28854CD51DF610EE007A5FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28854CDA1DF610EE007A5FF6 /* demo-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28854CDE1DF610EE007A5FF6 /* demo_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_macOSTests.swift; sourceTree = "<group>"; };
+		28854CE01DF610EE007A5FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28854CE51DF610EE007A5FF6 /* demo-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28854CE91DF610EE007A5FF6 /* demo_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_macOSUITests.swift; sourceTree = "<group>"; };
+		28854CEB1DF610EE007A5FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28854CFA1DF61146007A5FF6 /* LELog-macOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LELog-macOS.m"; path = "osx/LELog-macOS.m"; sourceTree = "<group>"; };
+		28854CFC1DF6145D007A5FF6 /* demo-macOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "demo-macOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		4B08F54818436082003D813B /* LELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LELog.h; sourceTree = "<group>"; };
-		4B08F54918436082003D813B /* LELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LELog.m; sourceTree = "<group>"; };
+		4B08F54918436082003D813B /* LELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LELog.m; path = ios/LELog.m; sourceTree = "<group>"; };
 		4B08F54F18436F0F003D813B /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B08F55118436F10003D813B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4B08F55618436F10003D813B /* demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo-Info.plist"; sourceTree = "<group>"; };
@@ -148,6 +188,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28854CC71DF610EE007A5FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CD71DF610EE007A5FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CE21DF610EE007A5FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B08F54C18436F0F003D813B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +263,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28854CCB1DF610EE007A5FF6 /* demo-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				28854CCC1DF610EE007A5FF6 /* AppDelegate.swift */,
+				28854CCE1DF610EE007A5FF6 /* ViewController.swift */,
+				28854CD01DF610EE007A5FF6 /* Assets.xcassets */,
+				28854CD21DF610EE007A5FF6 /* Main.storyboard */,
+				28854CD51DF610EE007A5FF6 /* Info.plist */,
+				28854CFC1DF6145D007A5FF6 /* demo-macOS-Bridging-Header.h */,
+			);
+			path = "demo-macOS";
+			sourceTree = "<group>";
+		};
+		28854CDD1DF610EE007A5FF6 /* demo-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				28854CDE1DF610EE007A5FF6 /* demo_macOSTests.swift */,
+				28854CE01DF610EE007A5FF6 /* Info.plist */,
+			);
+			path = "demo-macOSTests";
+			sourceTree = "<group>";
+		};
+		28854CE81DF610EE007A5FF6 /* demo-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28854CE91DF610EE007A5FF6 /* demo_macOSUITests.swift */,
+				28854CEB1DF610EE007A5FF6 /* Info.plist */,
+			);
+			path = "demo-macOSUITests";
+			sourceTree = "<group>";
+		};
 		4B08F55418436F10003D813B /* demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +347,9 @@
 				7EEE35521AB46DBF00668C3E /* lelib-iOS-dynamic */,
 				7EEE355F1AB46DBF00668C3E /* lelib-iOS-dynamicTests */,
 				7EEE357E1AB46F5C00668C3E /* lelib-iOS-static */,
+				28854CCB1DF610EE007A5FF6 /* demo-macOS */,
+				28854CDD1DF610EE007A5FF6 /* demo-macOSTests */,
+				28854CE81DF610EE007A5FF6 /* demo-macOSUITests */,
 				4BB806A1181D3DF1003066E5 /* Frameworks */,
 				4BB806A0181D3DF1003066E5 /* Products */,
 			);
@@ -269,6 +364,9 @@
 				7EEE35511AB46DBF00668C3E /* lelib.framework */,
 				7EEE355B1AB46DBF00668C3E /* lelib-iOS-dynamicTests.xctest */,
 				7EEE357D1AB46F5C00668C3E /* lelib.framework */,
+				28854CCA1DF610EE007A5FF6 /* demo-macOS.app */,
+				28854CDA1DF610EE007A5FF6 /* demo-macOSTests.xctest */,
+				28854CE51DF610EE007A5FF6 /* demo-macOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,6 +392,7 @@
 				4BB806A7181D3DF1003066E5 /* lelib.h */,
 				4B08F54818436082003D813B /* LELog.h */,
 				4B08F54918436082003D813B /* LELog.m */,
+				28854CFA1DF61146007A5FF6 /* LELog-macOS.m */,
 				4BB806A5181D3DF1003066E5 /* Supporting Files */,
 				4BBA0161184BDEE000AB5C9A /* LogFile.h */,
 				4BBA0162184BDEE000AB5C9A /* LogFile.m */,
@@ -418,6 +517,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		28854CC91DF610EE007A5FF6 /* demo-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28854CEC1DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOS" */;
+			buildPhases = (
+				28854CC61DF610EE007A5FF6 /* Sources */,
+				28854CC71DF610EE007A5FF6 /* Frameworks */,
+				28854CC81DF610EE007A5FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo-macOS";
+			productName = "demo-macOS";
+			productReference = 28854CCA1DF610EE007A5FF6 /* demo-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28854CD91DF610EE007A5FF6 /* demo-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28854CEF1DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOSTests" */;
+			buildPhases = (
+				28854CD61DF610EE007A5FF6 /* Sources */,
+				28854CD71DF610EE007A5FF6 /* Frameworks */,
+				28854CD81DF610EE007A5FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28854CDC1DF610EE007A5FF6 /* PBXTargetDependency */,
+			);
+			name = "demo-macOSTests";
+			productName = "demo-macOSTests";
+			productReference = 28854CDA1DF610EE007A5FF6 /* demo-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28854CE41DF610EE007A5FF6 /* demo-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28854CF21DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOSUITests" */;
+			buildPhases = (
+				28854CE11DF610EE007A5FF6 /* Sources */,
+				28854CE21DF610EE007A5FF6 /* Frameworks */,
+				28854CE31DF610EE007A5FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28854CE71DF610EE007A5FF6 /* PBXTargetDependency */,
+			);
+			name = "demo-macOSUITests";
+			productName = "demo-macOSUITests";
+			productReference = 28854CE51DF610EE007A5FF6 /* demo-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4B08F54E18436F0F003D813B /* demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B08F57A18436F10003D813B /* Build configuration list for PBXNativeTarget "demo" */;
@@ -530,9 +682,24 @@
 		4BB80697181D3DF1003066E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Logentries;
 				TargetAttributes = {
+					28854CC91DF610EE007A5FF6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					28854CD91DF610EE007A5FF6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28854CC91DF610EE007A5FF6;
+					};
+					28854CE41DF610EE007A5FF6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28854CC91DF610EE007A5FF6;
+					};
 					4BB806AE181D3DF1003066E5 = {
 						TestTargetID = 4B08F54E18436F0F003D813B;
 					};
@@ -566,11 +733,37 @@
 				7EEE35501AB46DBF00668C3E /* lelib-iOS-dynamic */,
 				7EEE355A1AB46DBF00668C3E /* lelib-iOS-dynamicTests */,
 				7EEE357C1AB46F5C00668C3E /* lelib-iOS-static */,
+				28854CC91DF610EE007A5FF6 /* demo-macOS */,
+				28854CD91DF610EE007A5FF6 /* demo-macOSTests */,
+				28854CE41DF610EE007A5FF6 /* demo-macOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		28854CC81DF610EE007A5FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28854CD11DF610EE007A5FF6 /* Assets.xcassets in Resources */,
+				28854CD41DF610EE007A5FF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CD81DF610EE007A5FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CE31DF610EE007A5FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B08F54D18436F0F003D813B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -613,6 +806,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28854CC61DF610EE007A5FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28854CF91DF6111F007A5FF6 /* lecore.m in Sources */,
+				28854CF61DF6110B007A5FF6 /* LEBackgroundThread.m in Sources */,
+				28854CCF1DF610EE007A5FF6 /* ViewController.swift in Sources */,
+				28854CFB1DF61146007A5FF6 /* LELog-macOS.m in Sources */,
+				28854CF81DF61119007A5FF6 /* LogFiles.m in Sources */,
+				28854CCD1DF610EE007A5FF6 /* AppDelegate.swift in Sources */,
+				28854CF71DF61112007A5FF6 /* LogFile.m in Sources */,
+				28854CF51DF61102007A5FF6 /* LeNetworkStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CD61DF610EE007A5FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28854CDF1DF610EE007A5FF6 /* demo_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28854CE11DF610EE007A5FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28854CEA1DF610EE007A5FF6 /* demo_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B08F54B18436F0F003D813B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -687,6 +911,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		28854CDC1DF610EE007A5FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28854CC91DF610EE007A5FF6 /* demo-macOS */;
+			targetProxy = 28854CDB1DF610EE007A5FF6 /* PBXContainerItemProxy */;
+		};
+		28854CE71DF610EE007A5FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28854CC91DF610EE007A5FF6 /* demo-macOS */;
+			targetProxy = 28854CE61DF610EE007A5FF6 /* PBXContainerItemProxy */;
+		};
 		4BB806B6181D3DF1003066E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4BB8069E181D3DF1003066E5 /* lelib */;
@@ -700,6 +934,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		28854CD21DF610EE007A5FF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28854CD31DF610EE007A5FF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4B08F55718436F10003D813B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -735,6 +977,173 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		28854CED1DF610EE007A5FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo-macOS/demo-macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28854CEE1DF610EE007A5FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "demo-macOS/demo-macOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28854CF01DF610EE007A5FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo-macOS.app/Contents/MacOS/demo-macOS";
+			};
+			name = Debug;
+		};
+		28854CF11DF610EE007A5FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demo-macOS.app/Contents/MacOS/demo-macOS";
+			};
+			name = Release;
+		};
+		28854CF31DF610EE007A5FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "demo-macOS";
+			};
+			name = Debug;
+		};
+		28854CF41DF610EE007A5FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "demo-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logentries.demo-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "demo-macOS";
+			};
+			name = Release;
+		};
 		4B08F57B18436F10003D813B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1096,6 +1505,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28854CEC1DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28854CED1DF610EE007A5FF6 /* Debug */,
+				28854CEE1DF610EE007A5FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28854CEF1DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28854CF01DF610EE007A5FF6 /* Debug */,
+				28854CF11DF610EE007A5FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28854CF21DF610EE007A5FF6 /* Build configuration list for PBXNativeTarget "demo-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28854CF31DF610EE007A5FF6 /* Debug */,
+				28854CF41DF610EE007A5FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4B08F57A18436F10003D813B /* Build configuration list for PBXNativeTarget "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1139,6 +1572,7 @@
 				7EEE35651AB46DBF00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEE35691AB46DBF00668C3E /* Build configuration list for PBXNativeTarget "lelib-iOS-dynamicTests" */ = {
 			isa = XCConfigurationList;
@@ -1147,6 +1581,7 @@
 				7EEE35671AB46DBF00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEE35901AB46F5C00668C3E /* Build configuration list for PBXNativeTarget "lelib-iOS-static" */ = {
 			isa = XCConfigurationList;
@@ -1155,6 +1590,7 @@
 				7EEE35921AB46F5C00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

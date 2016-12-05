@@ -78,7 +78,7 @@ static void ReachabilityCallback(SCNetworkReachabilityRef target __attribute__((
 			if ((flags & kSCNetworkReachabilityFlagsInterventionRequired) == 0) return YES;
     }
 	
-	if ((flags & kSCNetworkReachabilityFlagsIsWWAN) == kSCNetworkReachabilityFlagsIsWWAN) return YES;
+	if ((flags & kSCNetworkReachabilityFlagsIsDirect) == kSCNetworkReachabilityFlagsIsDirect) return YES;
     
 	return NO;
 }
